@@ -20,6 +20,7 @@ html, body {
 #description {
     text-align: center;
     font-size: 2.75vmax;
+    margin-top: 0;
 }
 .row-div {
     margin: 20px;
@@ -34,15 +35,6 @@ html, body {
 .right-side {
     width: 48%;
     display: inline-block;
-}
-#name-label {
-
-}
-#email-label {
-
-}
-#number-label {
-
 }
 .box-input {
     padding: 5px; /*vertically misaligns as browser width gets above a certain threshold*/
@@ -81,7 +73,7 @@ html, body {
 #submit {
     display: block;
     margin: 0 auto;
-    background: rgb(104, 210, 224);
+    background: rgb(59, 154, 167);
     width: 125px;
     height: 50px;
     border-radius: 5px;
