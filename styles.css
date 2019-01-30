@@ -1,0 +1,90 @@
+html, body {
+    background: rgb(104, 210, 224);
+    font-size: 12px;
+    font-family: "Noto Sans";
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 6vmax;
+}
+
+#survey-container {
+    background: rgb(226, 226, 226);
+    margin: 0 auto;
+    max-width: 900px;
+    width: 75%;
+    padding: 5%;
+}
+#description {
+    text-align: center;
+    font-size: 2.75vmax;
+}
+.row-div {
+    margin: 20px;
+}
+.labels {
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    text-align: right;
+    font-size: 2vmax;
+}
+.right-side {
+    width: 48%;
+    display: inline-block;
+}
+#name-label {
+
+}
+#email-label {
+
+}
+#number-label {
+
+}
+.box-input {
+    padding: 5px; /*vertically misaligns as browser width gets above a certain threshold*/
+    width: 75%;
+    margin-bottom: 7px;
+}
+#name { /*input*/
+    margin: 5px;
+}
+#email {
+    margin: 5px;
+}
+#number {
+    margin: 5px;
+}
+#dropdown {
+    height: 35px;
+    width: 80%;
+    vertical-align: bottom;
+    margin: 5px;
+}
+#radio {
+    font-size: 2vmax;
+    margin-left: 5px;
+}
+.textbox {
+    vertical-align: bottom;
+    width: 80%;
+    margin-left: 5px;
+}
+#checkboxes {
+    vertical-align: top;
+    font-size: 1.8vmax;
+    margin-left: 5px;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    background: rgb(104, 210, 224);
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
